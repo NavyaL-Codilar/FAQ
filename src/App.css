@@ -1,38 +1,83 @@
-.App {
-  text-align: center;
+*{
+  padding: 0%;
+  margin:0%;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.Parent{
+  background-color: white;
+  border-radius: 20px;
+  height: auto;
+  width: 65%;
+  margin: 3% auto ;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content:space-evenly;
+
+  
+}
+.image{
+  padding: 11% 0;
+  width: 50%;
 }
 
-.App-link {
-  color: #61dafb;
+.image img{
+  margin-left: -10%;
+}
+.img1{
+  z-index: 999;
+  padding-left: 12% ;
+  padding-top: 9.5%;
+  left: 0;
+  position: absolute;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+ol {
+  list-style: none;
+  
 }
+.Main_q{
+  width: 50%;
+  padding: 3% 5%;
+}
+
+.Main_q h1{
+  font-weight: bold;
+}
+
+.Que{
+  overflow: hidden;
+}
+
+
+@media (max-width:898px) {
+  .Parent{
+    display: flex;
+    flex-direction: column;
+  }
+  .image{
+    width: 70%;
+    height: 30%;
+    margin: auto;
+    margin-top: -45%;
+  }
+
+  .image img{
+    width: 100%;
+    margin: auto;
+  }
+  .img1{
+    display: none;
+
+  }
+
+  .Main_q{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    padding: 0 7%;
+  }
+
+  
+}
+
