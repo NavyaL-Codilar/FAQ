@@ -49,6 +49,11 @@ ol {
   overflow: hidden;
 }
 
+.card-header :hover{
+  color: crimson;
+
+}
+
 
 @media (max-width:898px) {
   .Parent{
